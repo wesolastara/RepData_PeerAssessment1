@@ -64,10 +64,12 @@ par(mfcol = c(2, 1))
 plot(steps_per_day, type = "h", lwd = 4, main = "with NA")
 plot(steps_per_day2, type = "h", lwd = 4, main = "No NA")
 ```
+
 Summary with NA
 ```{r}
 summary(steps_per_day$step_sum)
 ```
+
 Summary without NA
 ```{r}
 summary(steps_per_day2$step_sum)
