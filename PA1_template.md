@@ -146,6 +146,7 @@ plot(steps_per_day2, type = "h", lwd = 4, main = "No NA")
 ```
 
 ![](PA1_template_files/figure-html/unnamed-chunk-4-1.png)<!-- -->
+
 Summary with NA
 
 ```r
@@ -156,6 +157,7 @@ summary(steps_per_day$step_sum)
 ##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
 ##      41    8841   10765   10766   13294   21194       8
 ```
+
 Summary without NA
 
 ```r
